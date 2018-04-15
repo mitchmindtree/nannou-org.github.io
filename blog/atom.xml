@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://nannou.cc/blog</id>
 	<author>
-		<name>Mindbuffer/name>
+		<name>Mindbuffer</name>
 		<email>contact@mindbuffer.net</email>
 	</author>
 
