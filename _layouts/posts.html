@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+	{% include gtm_noscript.html %}
+	<nav>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/news">News</a></li>
+		<li><a href="/download">Download</a></li>
+		<li><a href="/learn">Learn</a></li>
+		<li><a href="/community">Community</a></li>
+	</ul>
+	</nav>
+
+	<h1>{{ page.title }}</h1>
+	<p class="meta">{{ page.date | date_to_string }}</p>
+
+	<div class="post">
+	  {{ content }}
+	</div>
+
+	<footer>
+	<ul>
+	<li><a href="mailto:contact@nannou.cc">email</a></li>
+	<li><a href="https://github.com/mitchmindtree/nannou">github.com/mitchmindtree/nannou</a></li>
+		</ul>
+	</footer>
+	</body>
+</html>
