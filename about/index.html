@@ -5,6 +5,21 @@ title: about | nannou
 
 <div class="about">
 <h1>About</h1>
+<h2>Philosophy</h2>
+	<ul>
+		<li>Provide easy, cross-platform access to the things that artists need:</li>
+		<li>Windowing &amp; Events (via winit and glutin)</li>
+		<li>Audio (via CPAL) Input and output streams. Duplex are not yet supported.</li>
+		<li>GUI (via conrod, may switch to a native solution in the future).
+		<li>OSC (via <a href="https://crates.io/crates/rosc">rosc</a>)</li>
+		<li>Graphics (via <a href="https://crates.io/crates/glium">glium</a>)</li>
+		<li>Video</li>
+		<li>Geometry</li>
+		<li>Lighting &amp; Lasers (DMX, ILDA)</li>
+		<li>Use only pure-rust libraries. New users should require nothing more than cargo add nannou and cargo build to get going.</li>
+		<li>No unsafe code with the exception of bindings to operating systems or hardware APIs.</li>
+		<li>Remove the need to decide between lots of different backends that provide access to the same hardware. Instead, we want to focus on a specific set of backends and make sure that they work well.</li>
+	</ul>
   <p><em>nannou</em> is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.</p>
   <p>The project was started out of a desire for a creative coding framework inspired by Processing, OpenFrameworks and Cinder, but for <a href="https://www.rust-lang.org/en-US/">Rust</a>.</p>
   <p>Named after <a href="https://www.youtube.com/watch?v=A-Pkx37kYf4">this</a></p>
