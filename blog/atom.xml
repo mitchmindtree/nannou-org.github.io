@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>nannou news</title>
+	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
+	<link href="http://nannou.cc/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://nannou.cc/blog</id>
+	<author>
+		<name>Mindbuffer/name>
+		<email>contact@mindbuffer.net</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://nannou.cc{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://nannou.cc{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
