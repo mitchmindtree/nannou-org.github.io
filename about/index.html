@@ -5,6 +5,11 @@ title: about | nannou
 
 <div class="about">
 <h1>About</h1>
+
+  <p><em>nannou</em> is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.</p>
+  <p>The project was started out of a desire for a creative coding framework inspired by Processing, OpenFrameworks and Cinder, but for <a href="https://www.rust-lang.org/en-US/">Rust</a>.</p>
+  <p>Named after <a href="https://www.youtube.com/watch?v=A-Pkx37kYf4">this</a></p>
+
 <h2>Philosophy</h2>
 	<ul>
 		<li>Provide easy, cross-platform access to the things that artists need:</li>
@@ -20,7 +25,21 @@ title: about | nannou
 		<li>No unsafe code with the exception of bindings to operating systems or hardware APIs.</li>
 		<li>Remove the need to decide between lots of different backends that provide access to the same hardware. Instead, we want to focus on a specific set of backends and make sure that they work well.</li>
 	</ul>
-  <p><em>nannou</em> is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.</p>
-  <p>The project was started out of a desire for a creative coding framework inspired by Processing, OpenFrameworks and Cinder, but for <a href="https://www.rust-lang.org/en-US/">Rust</a>.</p>
-  <p>Named after <a href="https://www.youtube.com/watch?v=A-Pkx37kYf4">this</a></p>
+
+<h2>Why Rust?</h2>
+	<p>Rust is a language that is both highly expressive and blazingly fast. Here are some of the reasons why we choose to use it:</p>
+
+	<li>Super fast, as in <a href="https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=rust&lang2=gpp">C and C++ fast</a>.</li>
+	<li>A standard package manager that makes it very easy to handle dependencies and share your own projects in seconds.</li>
+	<li>Highly portable. Easily build for MacOS, Linux, Windows, Android, iOS and so many others.
+	No header files (and no weird linking errors).</li>
+	<li>Sum Types and Pattern Matching (and no NULL).</li>
+	<li>Local type inference. Only write types where it matters, no need to repeat yourself.
+	A more modern, ƒunctional and expressive style.</li>
+	<li>Memory safe and data-race-free! Get your ideas down without the fear of creating pointer spaghetti or segfault time-sinks.</li>
+	<li>Immutability by default. Easily distinguish between variables that can change and those that can't at a glance.
+	</li>
+	<li>Module system resulting in very clean and concise name spaces.</li>
+	<li>One of the kindest internet communities we've come across (please visit mozilla's #rust or /r/rust if you're starting out and need any pointers)</li>
+
 </div>
