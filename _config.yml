@@ -4,3 +4,4 @@ markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 plugins: 
   - jekyll-sitemap
+  - jekyll-seo-tag
