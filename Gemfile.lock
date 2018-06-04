@@ -102,6 +102,7 @@ PLATFORMS
 
 DEPENDENCIES
   alembic-jekyll-theme
+  html-pipeline
   jekyll (~> 3.7)
   jekyll-seo-tag
 
