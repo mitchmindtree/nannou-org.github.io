@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>nannou news</title>
+	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
+	<link href="http://nannou.cc/blog"/>
+	<updated>2018-06-05T09:09:26+10:00</updated>
+	<id>http://nannou.cc/blog</id>
+	<author>
+		<name>Mindbuffer</name>
+		<email>contact@mindbuffer.net</email>
+	</author>
+
+	
+		<entry>
+			<title>Nannou Website Launched</title>
+			<link href="http://nannou.cc/news/2018/04/16/nannou-website-launched"/>
+			<updated>2018-04-16T00:00:00+10:00</updated>
+			<id>http://nannou.cc/news/2018/04/16/nannou-website-launched</id>
+			<content type="html">&lt;p&gt;Well. The nannou’s website has been born. Powered by only &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitPages&lt;/a&gt;, no hosting required. I can also use Markdown to author posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>

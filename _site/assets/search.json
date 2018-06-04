@@ -1,0 +1,61 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Nannou Website Launched",
+        "excerpt": "Well. The nannou’s website has been born. Powered by only Jekyll and GitPages, no hosting required. I can also use Markdown to author posts. It actually is a lot easier than I thought it was going to be.\n",
+        "content": "Well. The nannou’s website has been born. Powered by only Jekyll and GitPages, no hosting required. I can also use Markdown to author posts. It actually is a lot easier than I thought it was going to be.\n",
+        "url": "/news/2018/04/16/nannou-website-launched"
+      },
+    
+  
+  
+  
+  {
+    "title": "about | nannou",
+    "excerpt": "\n",
+    "content": "\nAbout\n\n  nannou is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.\n  The project was started out of a desire for a creative coding framework inspired by Processing, OpenFrameworks and Cinder, but for Rust.\n  Named after this\n\nPhilosophy\n\t\n\t\tProvide easy, cross-platform access to the things that artists need:\n\t\tWindowing &amp; Events (via winit and glutin)\n\t\tAudio (via CPAL) Input and output streams. Duplex are not yet supported.\n\t\tGUI (via conrod, may switch to a native solution in the future).\n\t\tOSC (via rosc)\n\t\tGraphics (via glium)\n\t\tVideo\n\t\tGeometry\n\t\tLighting &amp; Lasers (DMX, ILDA)\n\t\tUse only pure-rust libraries. New users should require nothing more than cargo add nannou and cargo build to get going.\n\t\tNo unsafe code with the exception of bindings to operating systems or hardware APIs.\n\t\tRemove the need to decide between lots of different backends that provide access to the same hardware. Instead, we want to focus on a specific set of backends and make sure that they work well.\n\t&lt;/ul&gt;\n\nWhy Rust?\n\tRust is a language that is both highly expressive and blazingly fast. Here are some of the reasons why we choose to use it:\n\n\tSuper fast, as in C and C++ fast.\n\tA standard package manager that makes it very easy to handle dependencies and share your own projects in seconds.\n\tHighly portable. Easily build for MacOS, Linux, Windows, Android, iOS and so many others.\n\tNo header files (and no weird linking errors).\n\tSum Types and Pattern Matching (and no NULL).\n\tLocal type inference. Only write types where it matters, no need to repeat yourself.\n\tA more modern, ƒunctional and expressive style.\n\tMemory safe and data-race-free! Get your ideas down without the fear of creating pointer spaghetti or segfault time-sinks.\n\tImmutability by default. Easily distinguish between variables that can change and those that can't at a glance.\n\t\n\tModule system resulting in very clean and concise name spaces.\n\tOne of the kindest internet communities we've come across (please visit mozilla's #rust or /r/rust if you're starting out and need any pointers)\n\n&lt;/div&gt;\n\n",
+    "url": "/about"
+  },
+  
+  {
+    "title": "community | nannou",
+    "excerpt": "\n",
+    "content": "\nCommunity\nForums\n\tThe nannou forum is the home of our community. Please visit feel free to contribute to the discussion if you have any questions, issues, suggestions or anything at all about nannou.\n\tWe would love to hear from you!\nGithub\n\tThe nannou Github repository shows our latest development on the coding framework, contributions to the project's code, documentation and website.\n\tIf you have any ideas or requests for features you can do so here.\n\n",
+    "url": "/community"
+  },
+  
+  {
+    "title": "docs | nannou",
+    "excerpt": "\n",
+    "content": "\n\tDocumentation\n\tGetting Started\n\tSee what the code looks like by checking out the examples.\n\tIf you're new to Rust, maybe check out the official book?\n\nStart your own project with:\n\ncargo new my_project\ncd my_project\n\nAdd nannou = \"0.1\" under the [dependencies] line in your Cargo.toml. This is everything you need to use the framework in your own project or sketch. Rust's package manager cargo will automatically download and install everything you need!\n\t\n\t\tDownload and setup nannou\n\t\tExplore the examples\n\t\tOther Resources\n\t\n&lt;/div&gt;\n\n",
+    "url": "/documentation"
+  },
+  
+  {
+    "title": "download | nannou",
+    "excerpt": "\n",
+    "content": "\n\tDownload\n\tSee the  nannou GitHub\n\n",
+    "url": "/download"
+  },
+  
+  {
+    "title": "nannou.cc | An open-source creative-coding toolkit for Rust",
+    "excerpt": "\n",
+    "content": "\n\tnannou, an open-source creative-coding toolkit for Rust.&lt;/h1&gt;\n\tnannou is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.\n&lt;/div&gt;\n\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "news | nannou",
+    "excerpt": "\n",
+    "content": "&lt;h1&gt;News&lt;/h1&gt;\n&lt;ul class=\"posts\"&gt;\n\n  \n    &lt;li&gt;&lt;span&gt;16 Apr 2018&lt;/span&gt; » &lt;a href=\"/news/2018/04/16/nannou-website-launched\" title=\"Nannou Website Launched\"&gt;Nannou Website Launched&lt;/a&gt;&lt;/li&gt;\n  \n&lt;/ul&gt;\n\n",
+    "url": "/news"
+  }
+  
+]
+

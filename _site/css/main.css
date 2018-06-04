@@ -1,0 +1,117 @@
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("fonts/Inter-UI-Regular.woff2") format("woff2"),
+       url("fonts/Inter-UI-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("fonts/Inter-UI-Italic.woff2") format("woff2"),
+       url("fonts/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("fonts/Inter-UI-Medium.woff2") format("woff2"),
+       url("fonts/Inter-UI-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 500;
+  src: url("fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
+       url("fonts/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("fonts/Inter-UI-Bold.woff2") format("woff2"),
+       url("fonts/Inter-UI-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
+       url("fonts/Inter-UI-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  normal;
+  font-weight: 900;
+  src: url("fonts/Inter-UI-Black.woff2") format("woff2"),
+       url("fonts/Inter-UI-Black.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style:  italic;
+  font-weight: 900;
+  src: url("fonts/Inter-UI-BlackItalic.woff2") format("woff2"),
+       url("fonts/Inter-UI-BlackItalic.woff") format("woff");
+}
+
+
+body {
+    font-family: 'Inter UI', sans-serif;
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+code {
+    font-size: 20px;
+}
+
+figure.highlight {
+    background: oldlace;
+    border-radius: 6px;
+    padding: 5px 25px;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
