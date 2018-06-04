@@ -61,12 +61,12 @@
 
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter UI', sans-serif;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Inter-UI', 'Helvetica', 'Sans-Serif';
+    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -84,7 +84,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Inter-UI', 'Helvetica', 'Sans-Serif';
+    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
