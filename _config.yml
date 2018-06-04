@@ -5,3 +5,4 @@ permalink: /news/:year/:month/:day/:title
 plugins: 
   - jekyll-sitemap
   - jekyll-seo-tag
+  - alembic-jekyll-theme
