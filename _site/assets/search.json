@@ -46,7 +46,7 @@
   {
     "title": "nannou.cc | An open-source creative-coding toolkit for Rust",
     "excerpt": "\n",
-    "content": "\n\tnannou, an open-source creative-coding toolkit for Rust.&lt;/h1&gt;\n\tnannou is a collection of code aimed at making it easy for artists to express themselves with simple, fast, reliable, portable code. Whether working on a 12-month laser installation or a 5 minute sketch, this framework aims to give artists easy access to the tools they need.\n&lt;/div&gt;\n\n",
+    "content": "\n\tA simple and super fast Rust library that enables high-performance graphics, audio, video and computational geometry.\n\tNannou is a free, open-source creative-coding framework, that is both reliable and highly portable across platforms. \n\n\n",
     "url": "/"
   },
   
