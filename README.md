@@ -1,5 +1,5 @@
 ## Welcome to the Nannou website - http://nannou.cc
 
-You can use the [editor on GitHub](https://github.com/nannou-org/nannou-org.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Built as a static website, powered by [Jekyll](https://jekyllrb.com/) and GitPages(https://https://pages.github.com/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For feedback please email us here(mailto:contact@nannou.cc)
