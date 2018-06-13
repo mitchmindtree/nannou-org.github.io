@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>nannou news</title>
-	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
-	<link href="http://nannou.cc/blog"/>
+	<link href="http://nannou.cc/news/atom.xml" rel="self"/>
+	<link href="http://nannou.cc/news"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://nannou.cc/blog</id>
+	<id>http://nannou.cc/news</id>
 	<author>
 		<name>Mindbuffer</name>
 		<email>contact@mindbuffer.net</email>

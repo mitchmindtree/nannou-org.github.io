@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Hello Nannou!"
 date: 2018-06-13
 ---
@@ -15,7 +15,7 @@ If you would prefer to jump straight in you can [get started here](https://githu
 
 Whether working on a 12-month laser installation or a 5 minute sketch, Nannou aims to give artists easy access to the tools they need.
 
-## Motivation 
+## Motivation
 
 Nannou is founded on three foundational motivations:
 
@@ -29,7 +29,7 @@ Although we have been working hard over the last year, Nannou is still a young p
 
 We invite you to play by [exploring the included examples](https://github.com/nannou-org/nannou#nannou-examples) or perhaps by having a go at porting an existing Processing / openFrameworks / Cinder sketch. If you are interested in contributing, whether it be code, ideas or feedback we would love to hear from you! Feel free to open pull requests and leave issues at the [GitHub repo](https://github.com/nannou-org/nannou), post in the [forum](http://forum.nannou.cc) or chat with us on [our slack channel](https://nannou.slack.com).
 
-We are extremely excited Nannou's potential and we look forward to building an inclusive, thriving community together with you all. 
+We are extremely excited Nannou's potential and we look forward to building an inclusive, thriving community together with you all.
 
 ## Upcoming Workshops
 
@@ -39,7 +39,7 @@ We are currently in **Barcelona** and have several events planned for the coming
 2. The [Makers of Barcelona](http://www.mob-barcelona.com/) space (date TBA).
 3. A workshop with the [Telenoika](http://www.telenoika.net/) creative collective (date TBA).
 
-We are also going to be at Sonar Festival this week. [Get in touch](contact@nannou.cc) if you would like to meet up! 
+We are also going to be at Sonar Festival this week. [Get in touch](contact@nannou.cc) if you would like to meet up!
 
 If you are interested in hosting a Nannou workshop or presentation please get in touch! Even if we can not be there in person, we can provide materials that may help you to host your own.
 
