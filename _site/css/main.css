@@ -68,7 +68,7 @@ body {
     background-color: #273238;   */
 }
 
-body, p, h1, h2, h3, span {
+body, p, h1, h2, h3 {
   color:#f5f5f5;
 }
 
@@ -84,12 +84,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  color: #B0BFC6;
+  font-weight: 500;
 }
 
 p {
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a {
@@ -160,4 +162,26 @@ small {
 
 small a {
   color:#fff;
+}
+
+span.zip {
+  font-size: x-small;
+  color: inherit;
+  font-weight: 100;
+}
+
+figure.highlight {
+  background: #EBEFF2;
+  margin-left: 20px;
+  font-size: 1.4em;
+  border-radius: 12px;
+  padding: 5px 35px;
+}
+
+code.language-ruby {
+  color:#000;
+}
+
+.docs li {
+  font-weight: 600;
 }
