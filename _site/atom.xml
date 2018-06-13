@@ -4,7 +4,11 @@
 	<title>nannou news</title>
 	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
 	<link href="http://nannou.cc/blog"/>
+<<<<<<< HEAD
+	<updated>2018-06-13T23:29:14+10:00</updated>
+=======
 	<updated>2018-06-14T01:23:21+10:00</updated>
+>>>>>>> barcelona
 	<id>http://nannou.cc/blog</id>
 	<author>
 		<name>Mindbuffer</name>
@@ -17,8 +21,23 @@
 			<link href="http://nannou.cc/news/2018/06/13/nannou-website-launch"/>
 			<updated>2018-06-13T00:00:00+10:00</updated>
 			<id>http://nannou.cc/news/2018/06/13/nannou-website-launch</id>
+<<<<<<< HEAD
+			<content type="html">&lt;p&gt;Well. Our website has now officially launched!&lt;/p&gt;
+
+&lt;p&gt;&lt;img href=&quot;https://nannou-org.github.io/assets/Oracle_Lattice.png&quot; /&gt;&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Nannou Website Launched</title>
+			<link href="http://nannou.cc/news/2018/04/16/nannou-website-launched"/>
+			<updated>2018-04-16T00:00:00+10:00</updated>
+			<id>http://nannou.cc/news/2018/04/16/nannou-website-launched</id>
+			<content type="html">&lt;p&gt;Well. The nannou’s website has been born. Powered by only &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitPages&lt;/a&gt;, no hosting required. I can also use Markdown to author posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
+=======
 			<content type="html">&lt;p&gt;Well. Our website has now officially launched!
 &lt;img src=&quot;http://localhost:4000/assets/images/oracle_lattice.png&quot; alt=&quot;Oracle Lattice&quot; /&gt;&lt;/p&gt;
+>>>>>>> barcelona
 </content>
 		</entry>
 	
