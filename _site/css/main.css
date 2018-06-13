@@ -68,7 +68,7 @@ body {
     background-color: #273238;   */
 }
 
-body, p, h1, h2, h3, span {
+body, p, h1, h2, h3 {
   color:#f5f5f5;
 }
 
@@ -84,12 +84,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  color: #B0BFC6;
+  font-weight: 500;
 }
 
 p {
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a {
@@ -103,7 +105,11 @@ a:hover {
 
 #logo {
   display: inline-block;
-  vertical-align: middle;
+  margin: 10px auto;
+}
+
+img#logo_image {
+  width: 200%;
 }
 
 code {
@@ -118,6 +124,7 @@ figure.highlight {
 
 nav {
   float: right;
+  margin: 20px;
 }
 
 nav ul, footer ul {
@@ -128,11 +135,19 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 nav {
   display: inline-block;
+}
+
+.blurb li {
+  list-style-type: none;
+}
+
+.container li {
+  padding: 10px 20px;
 }
 
 footer {
@@ -160,4 +175,26 @@ small {
 
 small a {
   color:#fff;
+}
+
+span.zip {
+  font-size: x-small;
+  color: inherit;
+  font-weight: 100;
+}
+
+figure.highlight {
+  background: #EBEFF2;
+  margin-left: 20px;
+  font-size: 1.4em;
+  border-radius: 12px;
+  padding: 5px 35px;
+}
+
+code.language-ruby {
+  color:#000;
+}
+
+.docs li {
+  font-weight: 600;
 }
