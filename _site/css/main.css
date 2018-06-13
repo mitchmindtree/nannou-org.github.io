@@ -105,7 +105,11 @@ a:hover {
 
 #logo {
   display: inline-block;
-  vertical-align: middle;
+  margin: 10px auto;
+}
+
+img#logo_image {
+  width: 200%;
 }
 
 code {
@@ -120,6 +124,7 @@ figure.highlight {
 
 nav {
   float: right;
+  margin: 20px;
 }
 
 nav ul, footer ul {
@@ -130,7 +135,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 nav {
