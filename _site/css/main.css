@@ -1,86 +1,82 @@
-  
+
 @font-face {
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 400;
-  src: url("fonts/Inter-UI-Regular.woff2") format("woff2"),
-       url("fonts/Inter-UI-Regular.woff") format("woff");
+  src: url("/fonts/Inter-UI-Regular.woff2") format("woff2"),
+       url("/fonts/Inter-UI-Regular.woff") format("woff");
 }
 @font-face {
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 400;
-  src: url("fonts/Inter-UI-Italic.woff2") format("woff2"),
-       url("fonts/Inter-UI-Italic.woff") format("woff");
+  src: url("/fonts/Inter-UI-Italic.woff2") format("woff2"),
+       url("/fonts/Inter-UI-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 500;
-  src: url("fonts/Inter-UI-Medium.woff2") format("woff2"),
-       url("fonts/Inter-UI-Medium.woff") format("woff");
+  src: url("/fonts/Inter-UI-Medium.woff2") format("woff2"),
+       url("/fonts/Inter-UI-Medium.woff") format("woff");
 }
 @font-face {
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 500;
-  src: url("fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
-       url("fonts/Inter-UI-MediumItalic.woff") format("woff");
+  src: url("/fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
+       url("/fonts/Inter-UI-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 700;
-  src: url("fonts/Inter-UI-Bold.woff2") format("woff2"),
-       url("fonts/Inter-UI-Bold.woff") format("woff");
+  src: url("/fonts/Inter-UI-Bold.woff2") format("woff2"),
+       url("/fonts/Inter-UI-Bold.woff") format("woff");
 }
 @font-face {
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 700;
-  src: url("fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
-       url("fonts/Inter-UI-BoldItalic.woff") format("woff");
+  src: url("/fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
+       url("/fonts/Inter-UI-BoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 900;
-  src: url("fonts/Inter-UI-Black.woff2") format("woff2"),
-       url("fonts/Inter-UI-Black.woff") format("woff");
+  src: url("/fonts/Inter-UI-Black.woff2") format("woff2"),
+       url("/fonts/Inter-UI-Black.woff") format("woff");
 }
 @font-face {
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 900;
-  src: url("fonts/Inter-UI-BlackItalic.woff2") format("woff2"),
-       url("fonts/Inter-UI-BlackItalic.woff") format("woff");
+  src: url("/fonts/Inter-UI-BlackItalic.woff2") format("woff2"),
+       url("/fonts/Inter-UI-BlackItalic.woff") format("woff");
 }
 
-#logo {
-    position: absolute;
-    top: 0;
-}
 
 body {
     font-family: 'Inter UI', sans-serif;
-    margin: 60px auto;
-    width: 70%;
-    background-color: #1d1d1d;
-    color:#f5f5f5;
+    margin: 60px;
+    width: 80%;
+    background-color: #273238;
 }
-nav ul, footer ul {
+
+h1 {
+    font-size: 2em;
     font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    color:#fff;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+    color:#f5f5f5;
+  }
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #f5f5f5;
 }
 
 a {
@@ -89,21 +85,16 @@ a {
 }
 a:hover {
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
-    color:#d7d7d7;
+    color: #FE5722;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #b28a8a;
+#logo {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 code {
-    font-size: 20px;
+    font-size: .75em;
 }
 
 figure.highlight {
@@ -112,16 +103,39 @@ figure.highlight {
     padding: 5px 25px;
 }
 
+nav {
+  float: right;
+}
+
+nav ul, footer ul {
+    font-family:'Inter UI', 'Helvetica', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+  display: inline-block;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+.blurb {
+  margin-top:20px;
 }

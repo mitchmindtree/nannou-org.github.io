@@ -2,7 +2,6 @@ name: Keenan Adams
 url: "http:nannou.cc"
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
-plugins: 
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-theme: alembic-jekyll-theme
