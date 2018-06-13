@@ -4,11 +4,7 @@
 	<title>nannou news</title>
 	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
 	<link href="http://nannou.cc/blog"/>
-<<<<<<< HEAD
-	<updated>2018-06-13T23:29:14+10:00</updated>
-=======
-	<updated>2018-06-14T01:23:21+10:00</updated>
->>>>>>> barcelona
+	<updated>2018-06-14T02:10:18+10:00</updated>
 	<id>http://nannou.cc/blog</id>
 	<author>
 		<name>Mindbuffer</name>
@@ -17,27 +13,85 @@
 
 	
 		<entry>
-			<title>Nannou Website Launch</title>
-			<link href="http://nannou.cc/news/2018/06/13/nannou-website-launch"/>
+			<title>Hello Nannou!</title>
+			<link href="http://nannou.cc/news/2018/06/13/hello-nannou"/>
 			<updated>2018-06-13T00:00:00+10:00</updated>
-			<id>http://nannou.cc/news/2018/06/13/nannou-website-launch</id>
-<<<<<<< HEAD
-			<content type="html">&lt;p&gt;Well. Our website has now officially launched!&lt;/p&gt;
+			<id>http://nannou.cc/news/2018/06/13/hello-nannou</id>
+			<content type="html">&lt;p&gt;Welcome to the initial release of Nannou!&lt;/p&gt;
 
-&lt;p&gt;&lt;img href=&quot;https://nannou-org.github.io/assets/Oracle_Lattice.png&quot; /&gt;&lt;/p&gt;
-</content>
-		</entry>
-	
-		<entry>
-			<title>Nannou Website Launched</title>
-			<link href="http://nannou.cc/news/2018/04/16/nannou-website-launched"/>
-			<updated>2018-04-16T00:00:00+10:00</updated>
-			<id>http://nannou.cc/news/2018/04/16/nannou-website-launched</id>
-			<content type="html">&lt;p&gt;Well. The nannou’s website has been born. Powered by only &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitPages&lt;/a&gt;, no hosting required. I can also use Markdown to author posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
-=======
-			<content type="html">&lt;p&gt;Well. Our website has now officially launched!
-&lt;img src=&quot;http://localhost:4000/assets/images/oracle_lattice.png&quot; alt=&quot;Oracle Lattice&quot; /&gt;&lt;/p&gt;
->>>>>>> barcelona
+&lt;p&gt;Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.&lt;/p&gt;
+
+&lt;p&gt;If you would prefer to jump straight in you can &lt;a href=&quot;https://github.com/nannou-org/nannou#getting-started&quot;&gt;get started here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/m7Cba72.png&quot; alt=&quot;nannou demos&quot; /&gt;
+&lt;em&gt;Simple Harmonic Motion GUI, &lt;a href=&quot;https://www.mindbuffer.net/#/lattice/&quot;&gt;LATTICE&lt;/a&gt; laser installation, &lt;a href=&quot;https://github.com/museumsvictoria/spatial_audio_server&quot;&gt;Spatial Audio Server&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether working on a 12-month laser installation or a 5 minute sketch, Nannou aims to give artists easy access to the tools they need.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Nannou is founded on three foundational motivations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;A fast, modern language.&lt;/strong&gt; When experimenting with the cutting edge in audiovisual processing high performance becomes a necessity. When performing live or creating long-running installations reliability becomes equally important. Rust ticks these boxes and more. Read more about why we chose Rust &lt;a href=&quot;https://github.com/nannou-org/nannou#why-rust&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Batteries Included.&lt;/strong&gt; One of the beauties of being a creative coder is that we have the potential to create works in a wide range of domains. Nannou aims to give equal priority to a full suite of creative I/O including graphics, multi-windowing, audio, lasers, lighting and more. See a more detailed list of both planned and existing features and protocols &lt;a href=&quot;https://github.com/nannou-org/nannou#goals&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Open Source &amp;amp; Liberally Licensed.&lt;/strong&gt; Access to these technologies is often expensive and locked behind proprietary systems. We believe in democratising this space by open sourcing Nannou for everyone to use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;join-us&quot;&gt;Join Us!&lt;/h2&gt;
+
+&lt;p&gt;Although we have been working hard over the last year, Nannou is still a young project and there is a lot of &lt;a href=&quot;https://github.com/nannou-org/nannou#goals&quot;&gt;work to be done&lt;/a&gt;. We envisage Nannou as a community project - a collaborative effort at building an artistic foundation on which we can all go forth, create and realise our own crazy and unique ideas.&lt;/p&gt;
+
+&lt;p&gt;We invite you to play by &lt;a href=&quot;https://github.com/nannou-org/nannou#nannou-examples&quot;&gt;exploring the included examples&lt;/a&gt; or perhaps by having a go at porting an existing Processing / openFrameworks / Cinder sketch. If you are interested in contributing, whether it be code, ideas or feedback we would love to hear from you! Feel free to open pull requests and leave issues at the &lt;a href=&quot;https://github.com/nannou-org/nannou&quot;&gt;GitHub repo&lt;/a&gt;, post in the &lt;a href=&quot;http://forum.nannou.cc&quot;&gt;forum&lt;/a&gt; or chat with us on &lt;a href=&quot;https://nannou.slack.com&quot;&gt;our slack channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We are extremely excited Nannou’s potential and we look forward to building an inclusive, thriving community together with you all.&lt;/p&gt;
+
+&lt;h2 id=&quot;upcoming-workshops&quot;&gt;Upcoming Workshops&lt;/h2&gt;
+
+&lt;p&gt;We are currently in &lt;strong&gt;Barcelona&lt;/strong&gt; and have several events planned for the coming weeks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A creative coding meetup at &lt;a href=&quot;https://protopixel.net/&quot;&gt;Protopixels studio&lt;/a&gt; on the 26th of June.&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://www.mob-barcelona.com/&quot;&gt;Makers of Barcelona&lt;/a&gt; space (date TBA).&lt;/li&gt;
+  &lt;li&gt;A workshop with the &lt;a href=&quot;http://www.telenoika.net/&quot;&gt;Telenoika&lt;/a&gt; creative collective (date TBA).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We are also going to be at Sonar Festival this week. &lt;a href=&quot;contact@nannou.cc&quot;&gt;Get in touch&lt;/a&gt; if you would like to meet up!&lt;/p&gt;
+
+&lt;p&gt;If you are interested in hosting a Nannou workshop or presentation please get in touch! Even if we can not be there in person, we can provide materials that may help you to host your own.&lt;/p&gt;
+
+&lt;h2 id=&quot;thanks-for-reading&quot;&gt;Thanks for Reading!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/nannou-org/nannou/tree/readme#getting-started&quot;&gt;Get started here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’ll leave you with some of recent works that we have created using Nannou.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.mindbuffer.net/#/lattice/&quot;&gt;&lt;strong&gt;LATTICE&lt;/strong&gt;&lt;/a&gt; - a 5x channel audiovisual laser installation driven by custom generative music software.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.mindbuffer.net/#/lattice/&quot;&gt;&lt;img src=&quot;https://static1.squarespace.com/static/598bcd9f6b8f5b57cf8691fb/5990e9399f74563f0321c76a/599116bce4fcb5badd8955e3/1527498906098/19679168_10155445797492716_3441482789834233679_o.jpg?format=1000w&quot; alt=&quot;LATTICE&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.mindbuffer.net/#/oracle/&quot;&gt;&lt;strong&gt;ORACLE&lt;/strong&gt;&lt;/a&gt; - an immerse installation featuring 128x moving-heads and spatial audio.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.mindbuffer.net/#/oracle/&quot;&gt;&lt;img src=&quot;https://i.imgur.com/lbPKPDl.png&quot; alt=&quot;ORACLE&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/museumsvictoria/spatial_audio_server&quot;&gt;&lt;strong&gt;Spatial Audio Server&lt;/strong&gt;&lt;/a&gt; - a cross-platform, n-channel spatial audio server developed for Scienceworks &amp;amp; Museums Victoria.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/museumsvictoria/spatial_audio_server&quot;&gt;&lt;img src=&quot;https://camo.githubusercontent.com/49c023f616f3aa81b381d6cd24582c17e79309b2/68747470733a2f2f696d6775722e636f6d2f3271584a746a632e706e67&quot; alt=&quot;Spatial Audio Server&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;*With love and lazers from Mitch, Josh, Keenan &amp;amp; Tom&lt;/td&gt;
+      &lt;td&gt;The Nannou Organisation &amp;lt;3*&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </content>
 		</entry>
 	
