@@ -4,7 +4,7 @@
 	<title>nannou news</title>
 	<link href="http://nannou.cc/blog/atom.xml" rel="self"/>
 	<link href="http://nannou.cc/blog"/>
-	<updated>2018-06-14T00:36:24+10:00</updated>
+	<updated>2018-06-14T01:14:06+10:00</updated>
 	<id>http://nannou.cc/blog</id>
 	<author>
 		<name>Mindbuffer</name>
@@ -17,7 +17,8 @@
 			<link href="http://nannou.cc/news/2018/06/13/nannou-website-launch"/>
 			<updated>2018-06-13T00:00:00+10:00</updated>
 			<id>http://nannou.cc/news/2018/06/13/nannou-website-launch</id>
-			<content type="html">&lt;p&gt;Well. Our website has now officially launched!&lt;/p&gt;
+			<content type="html">&lt;p&gt;Well. Our website has now officially launched!
+&lt;img src=&quot;http://localhost:4000/assets/images/oracle_lattice.png&quot; alt=&quot;Oracle Lattice&quot; /&gt;&lt;/p&gt;
 </content>
 		</entry>
 	
